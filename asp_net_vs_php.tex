@@ -1,0 +1,50 @@
+\documentclass[11]{article}
+
+\usepackage[margin = 0.6in]{geometry}
+\usepackage{indentfirst}
+\usepackage{natbib}
+
+%underlines the title of a book/article in the References section (ideal for UWS Harvard style)
+%FIXME check that all the citation rules are obeyed.
+\usepackage{ulem}
+
+\begin{document}
+
+\title{ASP.NET vs PHP}
+\author{Marius Olariu (B00350529)}
+\date{}
+\maketitle
+
+\section*{Introduction}(500 words)\\
+
+\bibpunct{(}{)}{;}{a}{,}{}
+
+	Nowadays, people expect personalized experiences and the Internet makes no exception to this rule. In order to fulfill this user requirement we need dynamic webpages (i.e. pages that can change automatically the content they display), few webpages currently are static (i.e. have the same content every time you open them). An example of a dynamic webpage could be \textit{amazon.com} that displays on the home page products that you might be interested in (based on your previous purchases, search history) whereas an example of a static webpage could be the contents of a book published online (e.g. https://natureofcode.com/book/). Developers automatically wonder what are the best technologies to use in order to develop dynamic webpages. However, due to the fact that different dynamic webpages have different requirements this study-case is going to focus on comparing two web technologies suitabale for developing a future version of \textit{www.uws.ac.uk}, namely ASP.NET and PHP. One of the main requirements of this site is to be able to process a lot of data (e.g. a lot of applications for programmes provided by university) thus it uses a SQL database sytem to store it. This study-case is going to compare how the aforementioned technologies interract with SQL database systems. \\ 
+	
+	ASP.NET is a framework from Microsoft for building dynamic web pages that was released in 2002 as a successor to \textbf{A}ctive \textbf{S}erver \textbf{P}ages (ASP).  This technology is used in the server-side web development; in other words, it interacts with the "computer" processing the website request and produces web pages that contain only HTML, CSS and JavaScript. ASP.NET provides flexibility to the developers because they have multiple choices when it comes to what languages to use for the backend of the website, namely ASP.NET supports C\#, Visual Basic .NET and J\# (a language inspired by Java). Additionally, writing the backend in C\# or J\# speeds the process of providing the website to the client because these languages are compiled (the backend code does not have to be interpreted at runtime). In 2014 Microsoft made the .NET server stack open-source (ASP.NET, .NET compiler, .NET Core Runtime etc.), ASP.NET can be found on a GitHub repository (\textit{github.com/aspnet}). Moreover, in the same year they started to support cross-platform development by making the tools needed available for platforms like Linux or macOS and deployment on a Linux web server.\\
+	
+	PHP is one of the most used programming languages \citep{cass2014top, cass20152015} and it is mainly used to write the backend of a webpage, in other words, mainly a server-side language . PHP was released in 1994 and the acronym stands for \textit{Hypertext Preprocessor}  or \textit{Personal Home Page Tools}, the later variant being the original name. The main advantage of this language is the fact that it can be embedded in HTML code and after being interpreted the PHP code results is HTML code (that gets sent to the browser). It is worth mentioning that PHP development is now open-source. Websites developed using PHP for the backend are cross-platform, namely, they can be hosted on web servers running Linux or Windows. The widely adoption of this language is due to the fact that is free and runs fast in combination with Apache and MySql on a low-specifications web server~\citep{converse2004php5}. Another reason for the use of PHP is that it is easy to learn.
+
+\section*{Body}(2500 words)
+%The body must present a comparison between ASP.NET and PHP web sites when used with typical SQL-based database management systems.
+%In particular, you should present what you consider to be the five most important factors when comparing these two technologies.
+
+	The above technologies are analysed based on how they interract with \textbf{R}elational \textbf{D}atabase \textbf{M}anagement \textbf{S}ystems (RDBMS). In order to manipulate the data stored in a RDBMS the standard language is \textbf{S}tructured \textbf{Q}uery \textbf{L}anguage (SQL) that is why these RDBMS are sometime referred as \textit{SQL-database managemenet systems}. There are many RDBMS systems out there, to mention but a few: Oracle, MySQL, Microsoft SQL Server, PostgreSQL etc. . PHP websites use mostly MySQL because these two technologies have been developed with each other in mind, are both open source projects with active web communities around them and (as mentioned above) are fast~\citep{davis2007learning}. ASP.NET websites use mostly Microsoft SQL Server because both technologies are developed and maintained by Microsoft. Given the above mentioned things about the bounds between the technologies, the first thing to analyze is how  these two technologies interract with MySql and SQL Server.\\ 
+
+	\subsection{MySQL}
+	First, let's have a look on how PHP is used with MySQL. PHP5 provides native APIs in order to connect to MySQL, namely \textit{mysql}, {mysqli}  and \textit{PDO\_MySQL}. However, starting with PHP7 the \textit{mysql} extension is deprecated.
+	
+
+
+	Second, let's have a look on how ASP.NET is used with MS SQL Server. \\
+
+	Can you use PHP and MS SQL Server? What about ASP.NET and MySQL.
+
+\section*{Conclusion}(1000 words)
+
+
+\bibliographystyle{agsm}
+\bibliography{asp_net_vs_php}
+
+\end{document}
+

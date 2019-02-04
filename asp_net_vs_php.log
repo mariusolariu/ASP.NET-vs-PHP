@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.4.16)  3 FEB 2019 23:34
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.4.16)  4 FEB 2019 17:22
  restricted system commands enabled.
 **asp_net_vs_php.tex
 (./asp_net_vs_php.tex
@@ -35,7 +35,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.123 seconds
+luaotfload | main : initialization completed in 0.119 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -139,15 +139,15 @@ LaTeX Font Info:    ... okay on input line 11.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(43.36243pt, 527.57014pt, 43.36243pt)
-* v-part:(T,H,B)=(43.36243pt, 708.24513pt, 43.36243pt)
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=527.57014pt
-* \textheight=708.24513pt
-* \oddsidemargin=-28.90756pt
-* \evensidemargin=-28.90756pt
-* \topmargin=-65.90756pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -192,34 +192,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
-
- []
-
 [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-
- []
-
-(./asp_net_vs_php.bbl) [2] (./asp_net_vs_php.aux))
+[2] (./asp_net_vs_php.bbl) [3] (./asp_net_vs_php.aux))
 
 Here is how much of LuaTeX's memory you used:
- 1246 strings out of 494413
+ 1251 strings out of 494413
  100000,89155 words of node,token memory allocated
  375 words of node memory still in use:
    2 hlist, 1 vlist, 1 rule, 2 glue, 3 attribute, 49 glue_spec, 3 attribute_list
 , 1 write nodes
-   avail lists: 2:249,3:54,4:46,5:334,6:11,7:4850,8:57,9:70,10:27,11:290
- 5423 multiletter control sequences out of 65536+600000
- 32 fonts using 2179535 bytes
+   avail lists: 2:261,3:45,4:35,5:256,6:13,7:3839,8:61,9:59,10:23,11:238
+ 5427 multiletter control sequences out of 65536+600000
+ 33 fonts using 2311215 bytes
  24i,6n,32p,1317b,195s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf>
 </usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.ot
@@ -228,10 +214,10 @@ f></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-regular
 .otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman12-regu
 lar.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman17-r
 egular.otf>
-Output written on asp_net_vs_php.pdf (2 pages, 32791 bytes).
+Output written on asp_net_vs_php.pdf (3 pages, 38002 bytes).
 
-PDF statistics: 53 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+PDF statistics: 56 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

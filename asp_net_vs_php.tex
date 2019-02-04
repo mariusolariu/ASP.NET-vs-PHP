@@ -1,6 +1,6 @@
 \documentclass[11]{article}
 
-\usepackage[margin = 0.6in]{geometry}
+\usepackage[margin = 1in]{geometry}
 \usepackage{indentfirst}
 \usepackage{natbib}
 
@@ -25,23 +25,50 @@
 	
 	PHP is one of the most used programming languages \citep{cass2014top, cass20152015} and it is mainly used to write the backend of a webpage, in other words, mainly a server-side language . PHP was released in 1994 and the acronym stands for \textit{Hypertext Preprocessor}  or \textit{Personal Home Page Tools}, the later variant being the original name. The main advantage of this language is the fact that it can be embedded in HTML code and after being interpreted the PHP code results is HTML code (that gets sent to the browser). It is worth mentioning that PHP development is now open-source. Websites developed using PHP for the backend are cross-platform, namely, they can be hosted on web servers running Linux or Windows. The widely adoption of this language is due to the fact that is free and runs fast in combination with Apache and MySql on a low-specifications web server~\citep{converse2004php5}. Another reason for the use of PHP is that it is easy to learn.
 
+\pagebreak
+
 \section*{Body}(2500 words)
 %The body must present a comparison between ASP.NET and PHP web sites when used with typical SQL-based database management systems.
 %In particular, you should present what you consider to be the five most important factors when comparing these two technologies.
 
-	The above technologies are analysed based on how they interract with \textbf{R}elational \textbf{D}atabase \textbf{M}anagement \textbf{S}ystems (RDBMS). In order to manipulate the data stored in a RDBMS the standard language is \textbf{S}tructured \textbf{Q}uery \textbf{L}anguage (SQL) that is why these RDBMS are sometime referred as \textit{SQL-database managemenet systems}. There are many RDBMS systems out there, to mention but a few: Oracle, MySQL, Microsoft SQL Server, PostgreSQL etc. . PHP websites use mostly MySQL because these two technologies have been developed with each other in mind, are both open source projects with active web communities around them and (as mentioned above) are fast~\citep{davis2007learning}. ASP.NET websites use mostly Microsoft SQL Server because both technologies are developed and maintained by Microsoft. Given the above mentioned things about the bounds between the technologies, the first thing to analyze is how  these two technologies interract with MySql and SQL Server.\\ 
+	The above technologies are analysed based on how they interract with \textbf{R}elational \textbf{D}atabase \textbf{M}anagement \textbf{S}ystems (RDBMS). In order to manipulate the data stored in a RDBMS the standard language is \textbf{S}tructured \textbf{Q}uery \textbf{L}anguage (SQL) that is why these RDBMS are sometime referred as \textit{SQL-databases}. There are many RDBMS systems out there, to mention but a few: Oracle, MySQL, Microsoft SQL Server, PostgreSQL etc. . PHP websites use mostly MySQL because these two technologies have been developed with each other in mind, are both open source projects with active web communities around them and (as mentioned above) are fast~\citep{davis2007learning}. ASP.NET websites use mostly Microsoft SQL Server because both technologies are developed and maintained by Microsoft. 
 
-	\subsection{MySQL}
-	First, let's have a look on how PHP is used with MySQL. PHP5 provides native APIs in order to connect to MySQL, namely \textit{mysql}, {mysqli}  and \textit{PDO\_MySQL}. However, starting with PHP7 the \textit{mysql} extension is deprecated.
+%Given the above mentioned things about the bounds between the technologies, the first thing to analyze is how  these two technologies interract with MySql and SQL Server.\\ 
+
+%	\subsection{MySQL}
+%	First, let's have a look on how PHP is used with MySQL. PHP5 provides native APIs in order to connect to MySQL, namely \textit{mysql}, {mysqli}  and \textit{PDO\_MySQL}. However, starting with PHP7 the \textit{mysql} extension is deprecated.
+
+%	Second, let's have a look on how ASP.NET is used with MS SQL Server. \\
+
+%	Can you use PHP and MS SQL Server? What about ASP.NET and MySQL.
+
+	\subsection*{Storage}
+		In the past database storage was quite expensive but as the hardware technology advances and new discoveries are put in practice, for example having data centers at the bottom of oceans~\citep{simon2018project}, the price of storage is becoming cheaper. Nonetheless, there are few things that have to be taken into account when choosing a database system. The considerations will be briefly mentioned and then there is going to be analyzed how the two programming technologies interract.
+
+	\paragraph{Scalability\\}
+	As the university keeps expanding, that is, opens new campuses, it is likely that a type of SQL-database cannot keep the pace with the new requirements for \textit{uws.ac.uk} (e.g. store  retrieve more data) thus it would be wise to pick a database system that offers two things: (i) easy migration of data or (ii) availabile to provide more storage and computing power (the server on which is hosted).
+
+	\paragraph{Database replication\\}
+	No matter how scalabale a database is at some point the database needs to be replicated in more than one server. This creates the need of keeping the servers synched, thus there is created a \textit{master-slave} relationship between the database servers. Usually the inserts happen in the master database and the reads are supplied by the slave databases (they keep synched with the master database by periodically updating thei content). Moreover, in case the master database fails one of the slaves databases could take the place to ensure availability of the website.
+
+	\paragraph{GUI Interface \\}
+	Often there is a need to interact directly with the database so a GUI can be really helpful, whether a web interface or a native software for a specific OS.
+
+
+%talk about how php and asp.net connect to different dbs and how these satisfy the aforementioned useful db characteristics
+
+	\subsection*{Cost}
 	
+	\subsection*{Security}
+
+	\subsection*{Maintenance available (or commercial license)}
 
 
-	Second, let's have a look on how ASP.NET is used with MS SQL Server. \\
-
-	Can you use PHP and MS SQL Server? What about ASP.NET and MySQL.
 
 \section*{Conclusion}(1000 words)
 
+
+\pagebreak
 
 \bibliographystyle{agsm}
 \bibliography{asp_net_vs_php}

@@ -1,5 +1,17 @@
 \begin{thebibliography}{xx}
 
+\harvarditem{{\em ASP.NET: Database Providers}}{n.d}{AspDbs}
+{\em ASP.NET: Database Providers}  \harvardyearleft n.d\harvardyearright .
+\newblock [Online] Available:
+  \url{https://docs.microsoft.com/en-us/ef/core/providers/index} [Accessed: 07
+  February 2019].
+
+\harvarditem{{\em ASP.NET vs PHP}}{n.d}{CompPhpAsp}
+{\em ASP.NET vs PHP}  \harvardyearleft n.d\harvardyearright .
+\newblock [Online] Available:
+  \url{https://www.similartech.com/compare/asp-net-vs-php} [Accessed: 07
+  February 2019].
+
 \harvarditem{Cass}{2014}{cass2014top}
 Cass, S.  \harvardyearleft 2014\harvardyearright , `The top 10 programming
   languages spectrum's 2014 ranking', {\em IEEE Spectrum} {\bf 51}(7),~68--68.
@@ -19,9 +31,25 @@ Davis, M.~E. \harvardand\ Phillips, J.~A.  \harvardyearleft
   2007\harvardyearright , {\em Learning PHP \& MySQL: Step-by-Step Guide to
   Creating Database-Driven Web Sites}, " O'Reilly Media, Inc.".
 
+\harvarditem{Mirzoev \harvardand\ Sack}{2014}{mirzoev2014webpage}
+Mirzoev, D. \harvardand\ Sack, L.  \harvardyearleft 2014\harvardyearright ,
+  `Webpage load speed: Asp. net vs. php', {\em arXiv preprint arXiv:1404.2163}
+  .
+
+\harvarditem{{\em PHP: Database Extensions - Manual}}{n.d}{PhpDbs}
+{\em PHP: Database Extensions - Manual}  \harvardyearleft n.d\harvardyearright
+  .
+\newblock [Online] Available: \url{http://php.net/manual/en/refs.database.php}
+  [Accessed: 07 February 2019].
+
 \harvarditem{Simon}{2018}{simon2018project}
 Simon, K.  \harvardyearleft 2018\harvardyearright , `Project
   natick—microsoft's self-sufficient underwater datacenters', {\em IndraStra
   Global} {\bf 4}(6),~4.
+
+\harvarditem{{\em uws.ac.uk Traffic Statistics}}{n.d}{LoadSpeed}
+{\em uws.ac.uk Traffic Statistics}  \harvardyearleft n.d\harvardyearright .
+\newblock [Online] Available: \url{https://www.alexa.com/siteinfo/uws.ac.uk}
+  [Accessed: 07 February 2019].
 
 \end{thebibliography}

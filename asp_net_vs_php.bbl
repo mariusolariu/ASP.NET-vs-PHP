@@ -20,6 +20,11 @@ Cass, S.  \harvardyearleft 2014\harvardyearright , `The top 10 programming
 Cass, S.  \harvardyearleft 2015\harvardyearright , `The 2015 top ten
   programming languages', {\em IEEE Spectrum, July} {\bf 20}.
 
+\harvarditem{{\em Classes and Objects}}{n.d}{PhpOop}
+{\em Classes and Objects}  \harvardyearleft n.d\harvardyearright .
+\newblock [Online] Available: \url{http://php.net/manual/en/language.oop5.php}
+  [Accessed: 10 February 2019].
+
 \harvarditem[Converse et~al.]{Converse, Park \harvardand\
   Morgan}{2004}{converse2004php5}
 Converse, T., Park, J. \harvardand\ Morgan, C.  \harvardyearleft
@@ -35,6 +40,11 @@ Davis, M.~E. \harvardand\ Phillips, J.~A.  \harvardyearleft
 Mirzoev, D. \harvardand\ Sack, L.  \harvardyearleft 2014\harvardyearright ,
   `Webpage load speed: Asp. net vs. php', {\em arXiv preprint arXiv:1404.2163}
   .
+
+\harvarditem{{\em Mono Project}}{n.d}{Mono}
+{\em Mono Project}  \harvardyearleft n.d\harvardyearright .
+\newblock [Online] Available: \url{https://www.mono-project.com/} [Accessed: 10
+  February 2019].
 
 \harvarditem{{\em PHP: Database Extensions - Manual}}{n.d}{PhpDbs}
 {\em PHP: Database Extensions - Manual}  \harvardyearleft n.d\harvardyearright

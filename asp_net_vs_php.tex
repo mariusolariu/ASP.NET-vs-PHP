@@ -7,6 +7,7 @@
 \usepackage[margin = 1in]{geometry}
 \usepackage{indentfirst}
 \usepackage{natbib}
+\usepackage{subcaption}
 
 %underlines the title of a book/article in the References section (ideal for UWS Harvard style)
 %FIXME check that all the citation rules are obeyed.
@@ -151,35 +152,85 @@
 	
 
 	\subsection{Cost}
+	The mass adoption of PHP was due to the fact that it was open-source and able to used in combination with free software like Apache, MySQL and Linux. By contrast, in order to develop dynamic webpages with ASP.NET you had to buy a licence for the IDE, pay for Microsoft SqL Server licence, host your wepage on a Windows web server and so on, however, all this changed when the development for ASP.NET went open-source, Visual Studio free and the deployment of webpage on a Linux web server was possible through the \cite{Mono}. This was a big and important step for Microsoft. Moreover, now the ASP.NET supports connection to free databases like MySQL. From what was stated above it can be said that the costs are pretty similar.\\
+	\indent
+	A future version of a webpage like \textit{uws.ac.uk} would need a team of developers in order to be developed professionally and according to \textit{payscale.com} the average salary for a PHP developer is less than the average salary for a ASP.NET developer. Therefore, if not for the cost of a certain stack of technologies used then at least from the perspective of workforce cost PHP is cheaper.
+
+		\begin{figure}
+				\centering
+						\begin{subfigure}{.5\textwidth}
+						  \centering
+						  \includegraphics[scale=0.45]{aspSalary}
+						  \caption{Average salary for a ASP.NET developer in UK}
+						  \label{fig:sub1}
+						\end{subfigure}%
+
+						\begin{subfigure}{.5\textwidth}
+						  \centering
+						  \includegraphics[scale=0.45]{phpSalary}
+						  \caption{Average salary for a PHP developer in UK}
+						  \label{fig:sub2}
+						\end{subfigure}
+
+				\caption{Comparison between salaries of PHP/ASP.NET developers}
+				\label{salaryComp}
+		\end{figure}
 	
 	\subsection{Security}
 
 	\subsection{Maintenance available (or commercial license)}
 
-	\subsection{Comparison from which type of devices they were accessed}
+	\subsection{Development}
+	The technologies can be compared also by the underlying programming paradigm that they use. In the case of ASP.NET, because it is a framework, C\# will be the chosen language for comparison since it is the most popular choice from all of the possibilites. \\
+	
+	\indent
+	PHP started as a scripting language in 1995, however, it has moved towards the Object Oriented paradigm supporting concepts like class, object, constructors \& destructors or object inheritance~\citep{PhpOop}. For a language to be considered Object-Oriented it needs to adhere to three main concepts: \textbf{Encapsulation}, \textbf{Polymorphism} and \textbf{Inheritance}. Encapsulation is used to bundle data and methods to a class, to protect the state of an object and it is achieved in PHP through the access specifies like \textit{public}, \textit{private} and \textit{protected}. Polymorphism is the ability to provide a interface to entities of different types and it is achieved in PHP by having \textit{interfaces} and \textit{abstract classes}. Inheritance allows new objects to "inherit" the properties and services of existing objects and is achieved in PHP by allowing classes to be \textit{extended} and interfaces to be \textit{implemented}. To sum it up, PHP7 can be considered an Object Oriented language but there some problems due to the fact that it has to be compatible with legacy code and the fact that it was not designed from the start as an Object Oriented language.\\
+	By comparison, C\# is a robust and mature Object Oriented language and it allows the programmer to develop good designed software that promotes separation of content, logic and data and thus the software it is easier to support in the long run. In addition, ASP.NET provides well-organized libraries that allow the developer to create new features easily  whereas in PHP it might be slightly harder to develop the same funcionality by using libraries developed by different developers. \\
+
+	\indent
+	A big part of the development time is spent on debugging the code and  testing it. PHP does not offer great tools for debugging, often, the developer has to use third-party software. ASP.NET provides free of charge an Integrated Development Environment (IDE) for computers running Windows/macOS which allows debugging of webpages code.\\
+	
+	\indent
+	In the first versions of PHP there was no mechanism for error traping but this drawback was fixed in PHP5 when \textit{Exception Handling} was added. Thus, from this way of looking at it, PHP5 is similar to C\#.\\
+	
+	\indent
+	Taking into account the strictly the development part it seems that ASP.NET would be a better choice for \textit{uws.ac.uk}.  
+
 
 	\subsection{Speed}
 %alexa.com info
 %sumarise the webpage load speed
-   According to \textit{similartech.com}, a website which performs comparisons between technologies, ASP.NET was used in the development of about 2.5 million websites whereas PHP was used for the developemnt of about 7.5 million websites~\citep{CompPhpAsp}. These numbers suggests that both of them are valid technologies used by industry. One way to compare the two technologies would be by the webpage load speed. As can be found on Alexa's website, a company owned by Amazon, the current version of \textit{uws.ac.uk} loads pretty slow, on average 3.64 seconds and 83\% of websites load faster~\citep{LoadSpeed}.
+   According to \textit{similartech.com}, a website which performs comparisons between technologies, ASP.NET was used in the development of about 2.5 million websites whereas PHP was used for the developemnt of about 7.5 million websites~\citep{CompPhpAsp}~\ref{websites}. These numbers suggests that both of them are valid technologies used by industry. One way to compare the two technologies would be by the webpage load speed. As can be found on Alexa's website, a company owned by Amazon, the current version of \textit{uws.ac.uk} loads pretty slow, on average 3.64 seconds and 83\% of websites load faster~\citep{LoadSpeed}.
 It is generally believed that  ASP.NET is faster than PHP because it can use for the backend programming languages that are compiled, like C\#, whereas PHP is an interpreted language. \\
+
+	\begin{figure}[H]
+
+			\begin{center}
+					\includegraphics[scale = 0.3]{websites.png}
+			\end{center}
+			%the 
+			\caption{Comparison of the technologies based on number of websites developed using them}
+			\label{websites}
+	\end{figure}
+
 	\indent
-	There has been found  a study~\citep{mirzoev2014webpage} doing a comparis on from this point of view. The authors created two small websites using both technologies:  test.aspx, test.php, about.aspx and about.php. The first type of website, \textit{test.*}, called 3 JavaScript files, 1 style sheet, 4 images and 1 favic on. The second type of website, \textit{about.*}, read a text file with 10.000 lines (each line being 15 characters long) and displayed it in the webpage. The webpage load speed was recorded using an addon in Mozilla Firefox browser, the results can be seen in Figure~\ref{speedFig}. In both sessions PHP ran faster than ASP.NET (session 1 -> 0.189 s, session 2 -> 1.281), however, PHP also had one the slowest loading time in session 1 -> 0.304 seconds. In \textit{Session 1} ASP.NET average load time was faster with 11.2 miliseconds than PHP while in \textit{Session 2} PHP website loaded faster on average with 13.56 miliseconds than the one using in ASP.NET. It seems from this study that there is not a big difference between ASP.NET and PHP when it comes to webpage load speed. However, the author belives that a more thorough testing scenario could be designed in order to validate the results of the above mentioned study. 
+	There has been found  a study~\citep{mirzoev2014webpage} that a compares the technologies by the webpage load spped. The authors created two small types of websites using both technologies: i) test.aspx \& test.php and ii) about.aspx \& about.php. The first type of website, \textit{test.*}, called 3 JavaScript files, 1 style sheet, 4 images and 1 favicon. The second type of website, \textit{about.*}, read a text file with 10.000 lines (each line being 15 characters long) and displayed it in the webpage. The webpage load speed was recorded using an addon, Lori (Life-of-request info), in Mozilla Firefox browser, the results can be seen in Figure~\ref{speedFig}. In both sessions PHP ran faster than ASP.NET (session 1 -> 0.189 s, session 2 -> 1.281), however, PHP also had one the slowest loading time in session 1 -> 0.304 seconds. In \textit{Session 1} ASP.NET average load time was faster with 11.2 miliseconds than PHP while in \textit{Session 2} PHP website loaded faster on average with 13.56 miliseconds than the one using in ASP.NET. It seems from this study that there is not a big difference between ASP.NET and PHP when it comes to webpage load speed. However, the author belives that a more thorough testing scenario could be designed in order to validate the results of the above mentioned study. 
 
 \begin{figure}[H]
 
 	\begin{center}
 			\includegraphics[scale = 0.5]{speedComp.png}
 	\end{center}
-	\label{speedFig}
+	%the 
 	\caption{Speed comparisons between two webpages written using both technologies}
+	\label{speedFig}
 
 \end{figure}
 
 %Using php can sometime increase the dev time because of spending much time getting separate components written by other people work together whereas ASP.NET modules generally all work well together 
 
 \section{Conclusion}(1000 words)
-
+%Microsoft has made a big step by making ASP.NET open source and providing cross-platform development, over time this might increase the adoption of ASP.NET by the developer community.
 
 \pagebreak
 

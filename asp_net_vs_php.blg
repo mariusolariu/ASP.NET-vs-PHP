@@ -3,44 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: asp_net_vs_php.aux
 The style file: agsm.bst
 Database file #1: asp_net_vs_php.bib
-You've used 10 entries,
+You've used 12 entries,
             2909 wiz_defined-function locations,
-            690 strings with 6002 characters,
-and the built_in function-call counts, 23163 in all, are:
-= -- 3781
+            698 strings with 6234 characters,
+and the built_in function-call counts, 25827 in all, are:
+= -- 4253
 > -- 236
 < -- 1
-+ -- 1660
++ -- 1832
 - -- 70
-* -- 1917
-:= -- 4700
-add.period$ -- 14
-call.type$ -- 10
-change.case$ -- 114
-chr.to.int$ -- 10
-cite$ -- 10
-duplicate$ -- 146
-empty$ -- 271
+* -- 2135
+:= -- 5184
+add.period$ -- 18
+call.type$ -- 12
+change.case$ -- 130
+chr.to.int$ -- 12
+cite$ -- 12
+duplicate$ -- 172
+empty$ -- 319
 format.name$ -- 91
-if$ -- 4228
+if$ -- 4758
 int.to.chr$ -- 5
 int.to.str$ -- 0
 missing$ -- 8
-newline$ -- 37
+newline$ -- 45
 num.names$ -- 61
-pop$ -- 66
+pop$ -- 84
 preamble$ -- 1
-purify$ -- 130
+purify$ -- 150
 quote$ -- 0
-skip$ -- 118
+skip$ -- 140
 stack$ -- 0
-substring$ -- 5029
-swap$ -- 42
-text.length$ -- 101
+substring$ -- 5587
+swap$ -- 56
+text.length$ -- 109
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 36
+type$ -- 44
 warning$ -- 0
-while$ -- 145
+while$ -- 153
 width$ -- 0
-write$ -- 125
+write$ -- 149

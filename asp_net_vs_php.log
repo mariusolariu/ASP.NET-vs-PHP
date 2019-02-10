@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.4.16)  8 FEB 2019 19:00
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.4.16)  10 FEB 2019 23:45
  restricted system commands enabled.
 **asp_net_vs_php
 (./asp_net_vs_php.tex
@@ -35,7 +35,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.122 seconds
+luaotfload | main : initialization completed in 0.123 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -146,13 +146,18 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count93
 )
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+\c@subfigure=\count94
+\c@subtable=\count95
+)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box28
 \UL@hyphenbox=\box29
 \UL@skip=\skip45
 \UL@hook=\toks18
 \UL@height=\dimen120
-\UL@pe=\count94
+\UL@pe=\count96
 \UL@pixel=\dimen121
 \ULC@box=\box30
 Package: ulem 2012/05/18
@@ -165,33 +170,33 @@ LaTeX Warning: Unused global option(s):
 (./asp_net_vs_php.aux)
 \openout1 = asp_net_vs_php.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count95
+\scratchcounter=\count97
 \scratchdimen=\dimen123
 \scratchbox=\box31
-\nofMPsegments=\count96
-\nofMParguments=\count97
+\nofMPsegments=\count98
+\nofMParguments=\count99
 \everyMPshowfont=\toks19
-\MPscratchCnt=\count98
+\MPscratchCnt=\count100
 \MPscratchDim=\dimen124
-\MPnumerator=\count99
-\makeMPintoPDFobject=\count100
+\MPnumerator=\count101
+\makeMPintoPDFobject=\count102
 \everyMPtoPDFconversion=\toks20
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -281,103 +286,150 @@ Package caption Info: End \AtBeginDocument code.
 /fonts/otl/lmroman17-regular.luc)(load luc: /Users/macbookpro/Library/texlive/20
 18/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 20.
+(Font)              <12> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 20.
+(Font)              <8> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 20.
+(Font)              <6> on input line 21.
 (load luc: /Users/macbookpro/Library/texlive/2018/texmf-var/luatex-cache/generic
 /fonts/otl/lmroman12-bold.luc)
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
 (load luc: /Users/macbookpro/Library/texlive/2018/texmf-var/luatex-cache/generic
 /fonts/otl/lmroman10-italic.luc)
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
 (load luc: /Users/macbookpro/Library/texlive/2018/texmf-var/luatex-cache/generic
 /fonts/otl/lmroman10-bold.luc)
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
 [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 66.
+(Font)              <7> on input line 67.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 66.
+(Font)              <5> on input line 67.
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 143--146
+Underfull \hbox (badness 10000) in paragraph at lines 144--147
 
  []
-
-
-Package caption Warning: \label without proper reference on input line 174.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `speedFig' on page 3 undefined on input line 167.
 
 [3]
-<speedComp.png, id=18, 487.8225pt x 711.65875pt>
+<aspSalary.png, id=18, 651.43375pt x 349.305pt>
+File: aspSalary.png Graphic file (type png)
+<use aspSalary.png>
+Package luatex.def Info: aspSalary.png  used on input line 163.
+(luatex.def)             Requested size: 293.14247pt x 157.18579pt.
+
+Overfull \hbox (58.26497pt too wide) in paragraph at lines 163--164
+ [][] 
+ []
+
+(load luc: /Users/macbookpro/Library/texlive/2018/texmf-var/luatex-cache/generic
+/fonts/otl/lmroman9-regular.luc)
+<phpSalary.png, id=19, 648.4225pt x 331.2375pt>
+File: phpSalary.png Graphic file (type png)
+<use phpSalary.png>
+Package luatex.def Info: phpSalary.png  used on input line 170.
+(luatex.def)             Requested size: 291.78743pt x 149.05548pt.
+
+Overfull \hbox (56.90993pt too wide) in paragraph at lines 170--171
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+
+ []
+
+[4<./aspSalary.png><./phpSalary.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 186--189
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--192
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--205
+
+ []
+
+<websites.png, id=26, 1151.30125pt x 352.31625pt>
+File: websites.png Graphic file (type png)
+<use websites.png>
+Package luatex.def Info: websites.png  used on input line 209.
+(luatex.def)             Requested size: 345.39305pt x 105.69568pt.
+[5<./websites.png>]
+<speedComp.png, id=31, 487.8225pt x 711.65875pt>
 File: speedComp.png Graphic file (type png)
 <use speedComp.png>
-Package luatex.def Info: speedComp.png  used on input line 172.
+Package luatex.def Info: speedComp.png  used on input line 222.
 (luatex.def)             Requested size: 243.91064pt x 355.8285pt.
- [4] [5<./speedComp.png>] (./asp_net_vs_php.bbl(load luc: /Users/macbookpro/Libr
-ary/texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc))
- [6] (./asp_net_vs_php.aux)
+ [6<./speedComp.png>] (./asp_net_vs_php.bbl(load luc: /Users/macbookpro/Library/
+texlive/2018/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc)) [7
+] (./asp_net_vs_php.aux)
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 )
 
 Here is how much of LuaTeX's memory you used:
- 3759 strings out of 494413
+ 3862 strings out of 494413
  100000,154059 words of node,token memory allocated
  380 words of node memory still in use:
    2 hlist, 1 vlist, 1 rule, 2 glue, 3 attribute, 50 glue_spec, 3 attribute_list
 , 1 write nodes
-   avail lists: 2:771,3:140,4:35,5:321,6:16,7:5278,8:227,9:208,10:23,11:262
- 7768 multiletter control sequences out of 65536+600000
- 43 fonts using 2996991 bytes
- 41i,7n,45p,1313b,363s stack positions out of 5000i,500n,10000p,200000b,100000s
+   avail lists: 2:679,3:164,4:36,5:353,6:16,7:5016,8:216,9:186,10:24,11:323
+ 7847 multiletter control sequences out of 65536+600000
+ 44 fonts using 3128671 bytes
+ 41i,8n,45p,1353b,473s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.ot
-f></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.ot
-f></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.
-otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-regul
-ar.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman12-bo
-ld.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman12-re
-gular.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman17
--regular.otf>
-Output written on asp_net_vs_php.pdf (6 pages, 192577 bytes).
+f></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.
+otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.
+otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-itali
+c.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-reg
+ular.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman12-
+bold.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman12-
+regular.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman
+17-regular.otf>
+Output written on asp_net_vs_php.pdf (7 pages, 410615 bytes).
 
-PDF statistics: 74 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+PDF statistics: 90 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

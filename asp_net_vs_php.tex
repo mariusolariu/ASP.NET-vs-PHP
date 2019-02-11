@@ -152,11 +152,11 @@
 	
 
 	\subsection{Cost}
-	The mass adoption of PHP was due to the fact that it was open-source and able to used in combination with free software like Apache, MySQL and Linux. By contrast, in order to develop dynamic webpages with ASP.NET you had to buy a licence for the IDE, pay for Microsoft SqL Server licence, host your wepage on a Windows web server and so on, however, all this changed when the development for ASP.NET went open-source, Visual Studio free and the deployment of webpage on a Linux web server was possible through the \cite{Mono}. This was a big and important step for Microsoft. Moreover, now the ASP.NET supports connection to free databases like MySQL. From what was stated above it can be said that the costs are pretty similar.\\
+	The mass adoption of PHP happened due to the fact that it was open-source and able to used in combination with free software like Linux as webserver operating system, Apache and MySQL (the LAMP stack). By contrast, in order to develop dynamic webpages with ASP.NET you had to buy a licence for the IDE, develop on a machine running Windows, pay for Microsoft SQL Server licence, host your wepage on a Windows web server and so on, however, all that changed when the development for ASP.NET went open-source, Visual Studio free and the deployment of webpage on a Linux web server was possible through the \cite{Mono}. This was a big and important step for Microsoft. Moreover, now the ASP.NET supports connection to free databases like MySQL. From what was stated above it can be said that the costs for both technologies are pretty similar.\\
 	\indent
-	A future version of a webpage like \textit{uws.ac.uk} would need a team of developers in order to be developed professionally and according to \textit{payscale.com} the average salary for a PHP developer is less than the average salary for a ASP.NET developer. Therefore, if not for the cost of a certain stack of technologies used then at least from the perspective of workforce cost PHP is cheaper.
+	A future version of a webpage like \textit{uws.ac.uk} would need a team of developers in order to be developed professionally and according to \textit{payscale.com} the average salary for a PHP developer is less than the average salary for a ASP.NET developer. A developer working with the WISA stack (Windows OS, IIS web server, Microsoft SQL Server and ASP.NET) is in general better paid because he can prove through~\cite{MScert} that he has the knowledge necessary for developing a dynamic web app. Therefore, if not for the cost of a certain stack of technologies used then at least from the perspective of workforce cost PHP is cheaper.
 
-		\begin{figure}
+		\begin{figure}[H]
 				\centering
 						\begin{subfigure}{.5\textwidth}
 						  \centering
@@ -176,9 +176,15 @@
 				\label{salaryComp}
 		\end{figure}
 	
-	\subsection{Security}
+	% \subsection{Security}
 
-	\subsection{Maintenance available (or commercial license)}
+	\subsection{Support}
+		The LAMP stack  is open-source thus it is very attractive for a developer/small team of developers to build a small sized dynamic web application. There is a vibrant community around the LAMP stack, thus a large pool of developers available. However, if there is a bug in a certain library function for example the approach to get support by using a technology or another is different. For PHP, one could post a forum question and the "friendly" community would provide a workaround. In contrast, for ASP.NET there can be submited a bug report and the Microsoft developers of ASP.NET would then have to fix the problem and include it in the next release of ASP.NET. Now since both platforms are open-source the difference between the two is in the fact that ASP.NET has software architects  paid to oversee the further development of the platform whereas the PHP develpment is done by developers around the world in their free time.\\
+	\indent
+	Next, if the university is using other software products from Microsoft (e.g. Microsoft Outlook mail) it would be slightly easier to integrate them with a future version of \textit{uws.ac.uk} developed using ASP.NET. The downside of WISA stack is that the technologies provided are not as customizable as those on the LAMP stack.\\
+	
+	\indent
+	It is known that big entreprises need support for the technologies that they use because they have custom business requiremenets and a large number of employees. This being said, because Microsoft can provide support for the technologies used in WISA stack a future version of \textit{uws.ac.uk} would be safer to be developed in ASP.NET.\\
 
 	\subsection{Development}
 	The technologies can be compared also by the underlying programming paradigm that they use. In the case of ASP.NET, because it is a framework, C\# will be the chosen language for comparison since it is the most popular choice from all of the possibilites. \\
@@ -188,7 +194,7 @@
 	By comparison, C\# is a robust and mature Object Oriented language and it allows the programmer to develop good designed software that promotes separation of content, logic and data and thus the software it is easier to support in the long run. In addition, ASP.NET provides well-organized libraries that allow the developer to create new features easily  whereas in PHP it might be slightly harder to develop the same funcionality by using libraries developed by different developers. \\
 
 	\indent
-	A big part of the development time is spent on debugging the code and  testing it. PHP does not offer great tools for debugging, often, the developer has to use third-party software. ASP.NET provides free of charge an Integrated Development Environment (IDE) for computers running Windows/macOS which allows debugging of webpages code.\\
+	A big part of the development time is spent on debugging the code and  testing it. PHP does not offer great tools for debugging, often, the developer has to use third-party software. ASP.NET provides free of charge an Integrated Development Environment (IDE) for computers running Windows/macOS which allows debugging of webpages code. However, the ASP.NET developers are pretty tied up to the Visual Studio to develop dynamic webpages whereas PHP developers use text editors like Vi/Vim and other open-source technologies that give them greater flexibility. By using small open-source software solutions PHP developers have a thorough understanding of how everything works and they are more capabale to integrate new technologies with old ones.\\
 	
 	\indent
 	In the first versions of PHP there was no mechanism for error traping but this drawback was fixed in PHP5 when \textit{Exception Handling} was added. Thus, from this way of looking at it, PHP5 is similar to C\#.\\
@@ -231,6 +237,33 @@ It is generally believed that  ASP.NET is faster than PHP because it can use for
 
 \section{Conclusion}(1000 words)
 %Microsoft has made a big step by making ASP.NET open source and providing cross-platform development, over time this might increase the adoption of ASP.NET by the developer community.
+
+		\begin{table}[H]
+			\caption{Popular websites developed using PHP or ASP.NET}
+			  \centering
+				\begin{tabular}{|l|l|l|l|}
+					\hline
+					\textbf{Domain} & \textbf{Launch date} & \textbf{Backend technology} & \textbf{Note}\\
+					\hline
+					google.com  & 2004 & PHP \& others & \\
+					\hline 
+					yahoo.com & 1995 & PHP  & \\
+					\hline 
+					wikipedia.org & 2001 & PHP, Hack  & Hack - dialect of PHP \\
+					\hline 
+					wordpress.com & 2003 & PHP & \\
+					\hline 
+					stackoverflow.com & 2008 & ASP.NET  & C\# \\
+					\hline 
+					w3schools.com & 1998 & ASP.NET  &  \\
+					\hline 
+					microsoft.com & 2005 & ASP.NET  & year when website was published  \\
+					\hline 
+					dell.com & 2005 & ASP.NET  & \\
+					\hline 
+				\end{tabular}
+
+		\end{table}
 
 \pagebreak
 

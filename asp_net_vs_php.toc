@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}
+\contentsline {section}{\numberline {2}Comparison}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Storage}{3}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Scalability\\}{3}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Database replication\\}{3}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}GUI Interface \\}{3}{subsubsection.2.1.3}
+\contentsline {subsection}{\numberline {2.2}Cost}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Support}{5}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Development}{6}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Speed}{7}{subsection.2.5}
+\contentsline {section}{\numberline {3}Conclusion}{9}{section.3}
